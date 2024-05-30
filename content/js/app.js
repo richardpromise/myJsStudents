@@ -62,14 +62,13 @@ namE = "sharon";
 // primitive
 // string
 // set characters in a double or single quote
-let val =
-  "sdfjksdjflksjkljsfskl2287278y27839@@@$%^&*(()_____Oiruieuwuwsjmsj3637";
+// let val = "sdfjksdjflksjkljsfskl228";
 
-console.log(typeof val);
+// console.log(typeof val);
 
 // number
-let sum = (100 / 10) * 5 - 2 + 20;
-console.log(sum);
+// let sum = (100 / 10) * 5 - 2 + 20;
+// console.log(sum);
 
 // boolean
 
@@ -85,10 +84,10 @@ console.log(somethig);
 
 // null non existance or intentions set value
 
-console.log(localStorage.getItem("item"));
+// console.log(localStorage.getItem("item"));
 
-let user = null;
-console.log(user);
+// let user = null;
+// console.log(user);
 
 // object a make up of properties
 
@@ -102,3 +101,71 @@ let onyinyechukwu = {
 };
 
 console.log(onyinyechukwu.status);
+
+let user = "john doe";
+const user2 = "James smith";
+
+// user = "sango";
+// user2 = "avater";
+
+console.log(user);
+
+let age = 20.0;
+console.log(typeof age);
+console.log(typeof user);
+
+const haveMoney = false;
+
+console.log(typeof haveMoney);
+console.log(localStorage.getItem("item"));
+
+let danger = null;
+console.log(danger);
+
+let something;
+
+console.log(something);
+
+let car = {
+  engine: true,
+  seat: true,
+  seatNumber: 4,
+  brand: "m/benz",
+  color: "black",
+  transactionBanks: ["zenith", "first bank", "asccess"],
+  owerNameDetails: {
+    name: "promise",
+    age: 16,
+    isVerified: true,
+    status: "single",
+  },
+};
+
+car.wheels = 2;
+car.engine = false;
+console.log(car);
+
+// car.wheels = "alloy wheels";
+// car.seatNumber = 5;
+
+// let { engine, seat, brand } = car;
+
+// console.log(engine, seat, brand);
+// console.log(car);
+// console.log(seat);
+
+// non primitive data types
+// arrays
+// date/time
+// functions
+// conditionals
+
+// array is a series of values assigned to a single variable
+
+let items = ["rice", "beans", { son: "james" }, 10, true, false, { Dob: 100 }];
+
+console.log(items[2].name);
+
+let [three, one] = items;
+console.log(items[6].Dob);
+// console.log(items);
