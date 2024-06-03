@@ -170,3 +170,71 @@ let [three, one] = items;
 console.log(items[6].Dob);
 
 // console.log(items);
+
+// what is a function ?  is a block of code containing an alghorithm
+// is a sequence of commands of instructions to perform or execute a task or solve a problem
+
+// proprties
+
+// declaration
+// name
+// parameter
+// function block
+// return
+// invocation
+
+// let name = "somentijsjs";
+// function greetUser(user) {
+//   console.log("hello you are welcome" + " " + user);
+// }
+
+// greetUser("james smith");
+
+// greetUser("john");
+
+// greetUser("emmanuel");
+
+// console.log("hello you are welcome");
+
+// function logToConsole() {
+
+// }
+// method
+
+// const log = {
+//   toConsole: function (data) {
+//     console.log(data);
+//   },
+// };
+
+// log.toConsole("hello world");
+// console.warn("stop");
+
+function add(number1, number2) {
+  console.log(`the answer  ${number1 + number2}`);
+}
+
+add(10, 50);
+
+// string methods
+// number methods
+// ararys
+
+// string method
+
+// concactination
+
+let firstName = "john";
+let lastNamE = "doe";
+let fullName = firstName + " " + lastNamE;
+// console.log(fullName);
+
+let number1 = 10;
+let number2 = 50;
+
+// template literals
+
+fullName = `this is ${firstName} ${lastNamE} he i the founder ,the sum  is ${
+  number1 + number2
+} `;
+console.log(fullName);
