@@ -168,4 +168,5 @@ console.log(items[2].name);
 
 let [three, one] = items;
 console.log(items[6].Dob);
+
 // console.log(items);
