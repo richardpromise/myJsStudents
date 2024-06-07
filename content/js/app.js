@@ -340,3 +340,42 @@ val = Math.floor(10.9);
 val = Math.floor(Math.random() * 11);
 
 console.log(val);
+
+let user = {
+  name: "promise",
+  age: "10",
+  status: "billioniare",
+};
+
+// let { name, age } = user;
+// console.log(name);
+// console.log(age);
+
+// console.log(item1);
+
+// console.log(iteMs);
+// console.log(user);
+
+// let person = {
+//   name: "deborah",
+//   age: 34,
+//   statu: "flirt",
+// };
+
+// let { name, age } = person;
+
+// console.log(name);
+
+// array methods
+
+let students = ["debohrah", "timi", "great", "chidi"];
+let numbers = [2, 4, 1, 7];
+// students.pop(); // pop takes away from the end of an array
+// students.shift(); // takes away from the start of an array
+// students.push("jesse"); //adds to the end of the array
+// students.unshift("james"); // adds to the begining of the array
+// console.log(students.length);
+// students.splice(-1);
+// numbers.sort();sort an array
+// console.log(numbers);
+console.log(students);
