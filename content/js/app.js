@@ -368,7 +368,38 @@ let user = {
 
 // array methods
 
-let students = ["debohrah", "timi", "great", "chidi"];
+// let students = ["debohrah", "timi", "great", "chidi"];
+// let numbers = [2, 4, 1, 7];
+// students.pop(); // pop takes away from the end of an array
+// students.shift(); // takes away from the start of an array
+// students.push("jesse"); //adds to the end of the array
+// students.unshift("james"); // adds to the begining of the array
+// console.log(students.length);
+// students.splice(-1);
+// numbers.sort();sort an array
+// console.log(numbers);
+
+let james = {
+  school: "bafuto",
+  course: "web-design",
+  currentPrograme: "web-development",
+};
+
+let { school, course, currentPrograme } = james;
+
+console.log(school);
+// console.log(james.school)
+
+console.log(james);
+
+let packege = ["drink", "food", "cash"];
+// console.log(packege[2]);
+let [onE, two, lastIndex] = packege;
+console.log(onE);
+
+// array methods
+
+let students = ["debohrah", "jesse", "timi", "great", "chidi", "jesse"];
 let numbers = [2, 4, 1, 7];
 // students.pop(); // pop takes away from the end of an array
 // students.shift(); // takes away from the start of an array
@@ -378,4 +409,23 @@ let numbers = [2, 4, 1, 7];
 // students.splice(-1);
 // numbers.sort();sort an array
 // console.log(numbers);
-console.log(students);
+
+// students.pop();
+// students.shift();
+// students.push("jesse");
+// students.push("stacy");
+// students.unshift("promise");
+// students.splice(-3);
+// numbers.sort();
+
+// console.log(numbers);
+
+// console.log(students.includes("jesseca"));
+// console.log(students.lastIndexOf("jesse"));
+// students.map(function (item) {
+//   item = "hello world";
+//   console.log(item);
+// });
+// console.log(students);
+
+// console.log(students);
