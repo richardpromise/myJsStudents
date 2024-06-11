@@ -429,3 +429,38 @@ let numbers = [2, 4, 1, 7];
 // console.log(students);
 
 // console.log(students);
+let result = [];
+// console.log(result);
+
+const getSquareRoot = (value) => {
+  let resut = Math.sqrt(value);
+  return `the square root of ${value} is ${resut}`;
+};
+
+let aswer1 = getSquareRoot(100);
+result.push(aswer1);
+
+// console.log(result);
+const changeToUpperCase = (value) => {
+  return value.toUpperCase();
+};
+
+let answer2 = changeToUpperCase("small");
+result.push(answer2);
+
+// console.log(result);
+
+function Random(maximum) {
+  return Math.ceil(Math.random() * maximum);
+}
+
+let answr3 = Random(5);
+result.push(answr3);
+
+console.log(result);
+
+// let itemS = ["one", "two", "three"];
+// let newItem = "shoe";
+
+// itemS.push(newItem);
+// console.log(itemS);
