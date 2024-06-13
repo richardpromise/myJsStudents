@@ -162,12 +162,12 @@
 
 // array is a series of values assigned to a single variable
 
-let items = ["rice", "beans", { son: "james" }, 10, true, false, { Dob: 100 }];
+// let items = ["rice", "beans", { son: "james" }, 10, true, false, { Dob: 100 }];
 
-console.log(items[2].name);
+// console.log(items[2].name);
 
-let [three, one] = items;
-console.log(items[6].Dob);
+// let [three, one] = items;
+// console.log(items[6].Dob);
 
 // console.log(items);
 
@@ -274,11 +274,11 @@ console.log(items[6].Dob);
 
 // concact
 
-let firstname = "James";
-let lastName = " Smith";
-let fullNamE = `${firstname} ${lastName}`;
-fullNamE = firstname.concat("" + lastName);
-console.log(fullNamE);
+// let firstname = "James";
+// let lastName = " Smith";
+// let fullNamE = `${firstname} ${lastName}`;
+// fullNamE = firstname.concat("" + lastName);
+// console.log(fullNamE);
 
 // const log = {
 //   toCOnsole: function (data) {
@@ -327,25 +327,25 @@ console.log(fullNamE);
 // val = Math.abs(-100);
 // val = Math.floor(Math.random() * 11);
 
-let val;
+// let val;
 
-val = Math.sin(20);
-val = Math.cos(30);
-val = Math.sqrt(100);
-val = Math.pow(10, 2);
-val = Math.abs(-3000.0);
-val = Math.round(10.4);
-val = Math.ceil(10.2);
-val = Math.floor(10.9);
-val = Math.floor(Math.random() * 11);
+// val = Math.sin(20);
+// val = Math.cos(30);
+// val = Math.sqrt(100);
+// val = Math.pow(10, 2);
+// val = Math.abs(-3000.0);
+// val = Math.round(10.4);
+// val = Math.ceil(10.2);
+// val = Math.floor(10.9);
+// val = Math.floor(Math.random() * 11);
 
-console.log(val);
+// console.log(val);
 
-let user = {
-  name: "promise",
-  age: "10",
-  status: "billioniare",
-};
+// let user = {
+//   name: "promise",
+//   age: "10",
+//   status: "billioniare",
+// };
 
 // let { name, age } = user;
 // console.log(name);
@@ -379,28 +379,28 @@ let user = {
 // numbers.sort();sort an array
 // console.log(numbers);
 
-let james = {
-  school: "bafuto",
-  course: "web-design",
-  currentPrograme: "web-development",
-};
+// let james = {
+//   school: "bafuto",
+//   course: "web-design",
+//   currentPrograme: "web-development",
+// };
 
-let { school, course, currentPrograme } = james;
+// let { school, course, currentPrograme } = james;
 
-console.log(school);
+// console.log(school);
 // console.log(james.school)
 
-console.log(james);
+// console.log(james);
 
-let packege = ["drink", "food", "cash"];
+// let packege = ["drink", "food", "cash"];
 // console.log(packege[2]);
-let [onE, two, lastIndex] = packege;
-console.log(onE);
+// let [onE, two, lastIndex] = packege;
+// console.log(onE);
 
 // array methods
 
-let students = ["debohrah", "jesse", "timi", "great", "chidi", "jesse"];
-let numbers = [2, 4, 1, 7];
+// let students = ["debohrah", "jesse", "timi", "great", "chidi", "jesse"];
+// let numbers = [2, 4, 1, 7];
 // students.pop(); // pop takes away from the end of an array
 // students.shift(); // takes away from the start of an array
 // students.push("jesse"); //adds to the end of the array
@@ -429,38 +429,222 @@ let numbers = [2, 4, 1, 7];
 // console.log(students);
 
 // console.log(students);
-let result = [];
+// let result = [];
 // console.log(result);
 
-const getSquareRoot = (value) => {
-  let resut = Math.sqrt(value);
-  return `the square root of ${value} is ${resut}`;
-};
+// const getSquareRoot = (value) => {
+//   let resut = Math.sqrt(value);
+//   return `the square root of ${value} is ${resut}`;
+// };
 
-let aswer1 = getSquareRoot(100);
-result.push(aswer1);
-
-// console.log(result);
-const changeToUpperCase = (value) => {
-  return value.toUpperCase();
-};
-
-let answer2 = changeToUpperCase("small");
-result.push(answer2);
+// let aswer1 = getSquareRoot(100);
+// result.push(aswer1);
 
 // console.log(result);
+// const changeToUpperCase = (value) => {
+//   return value.toUpperCase();
+// };
 
-function Random(maximum) {
-  return Math.ceil(Math.random() * maximum);
-}
+// let answer2 = changeToUpperCase("small");
+// result.push(answer2);
 
-let answr3 = Random(5);
-result.push(answr3);
+// console.log(result);
 
-console.log(result);
+// function Random(maximum) {
+//   return Math.ceil(Math.random() * maximum);
+// }
+
+// let answr3 = Random(5);
+// result.push(answr3);
+
+// console.log(result);
 
 // let itemS = ["one", "two", "three"];
 // let newItem = "shoe";
 
 // itemS.push(newItem);
 // console.log(itemS);
+
+// it is zero based index progaming language
+// loosely tyed
+
+// case sensitive
+
+// console
+// varible declations
+// data typed
+
+// var
+// let
+// const
+// es means ecma script
+
+// var is a global scope declarator es 5
+// let and const are bock scope declarators
+
+// let name = "james";
+// console.log(name);
+
+// let useR = "jammie";
+// let newUser = "fox";
+
+// console.log(newUser);
+
+// var person = "ojo";
+// console.log(person);
+
+// const item = "bag";
+// console.log(item);
+
+// let allows it value to be reasignable
+// const is constant
+
+// newUser = "smith";
+
+// console.log(newUser);
+
+// item = "paper";
+// console.log(newUser);
+
+// data types
+
+// primitive
+// non primitive
+
+// strings
+// boolean
+// numbers
+// null
+// undefined
+// object
+// symbols
+
+// arrays
+// function
+// contional statement
+// date / time
+
+// sting is a series if chaacters in a single or double quote 'djksnklsd'  " sdklnlQ@@#^%&^&(&(*(*++"
+
+// let type1 = "james82389830930309+++)(&^%_++";
+
+// console.log(typeof type1);
+
+// numbers
+// let age = 10.9;
+// console.log(typeof age);
+
+// let maxumumNumber = BigInt(99999999999999889999);
+// console.log(typeof maxumumNumber);
+
+// boolean is a ture or false statement
+// console.log(5 < 2);
+
+// let open = false;
+// console.log(typeof open);
+
+// undefined is a variable with no value assigned to
+
+// let test;
+
+// console.log(typeof test);
+
+// null is void / non exixtance or an intentionally set void value
+
+// console.log(localStorage.getItem("test"));
+// let accountBalance = null;
+// console.log(accountBalance);
+
+// objects is simply a make up of properties
+// let largeValues = BigInt(99999999999);
+
+// console.log(typeof largeValues);
+
+// let user = "james";
+// console.log(typeof user);
+
+// let item = ["one"];
+
+// item.push("ten");
+// let poped = item.pop();
+// console.log(item);\
+// item.unshift("two");
+// item.shift();
+// console.log(item);
+
+// loops
+
+// for loop
+// while loop
+// do while loop
+// map
+// for in
+// for each
+
+// for loop
+
+// declaration
+// argument
+// initiation / declaration
+// condition
+// incrementation
+// alghorithm
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+let result = [];
+
+for (let i = 4; i >= 0; i--) {
+  // console.log(i);
+  // let test = i;
+  result.push(i + 1);
+}
+console.log(result);
+
+// while
+
+// let i = -1;
+
+// while (i < 5) {
+//   console.log(i);
+
+//   i++;
+// }
+
+// do while loop
+
+// do {
+//   console.log(i);
+//   i++;
+// } while (i > 5);
+
+// let number = 1;
+
+// number++;
+// number--;
+// console.log(number);
+// let test = [];
+// result.forEach(function (item) {
+//   console.log(item);
+// if (item === 4) {
+//   console.log("item is four");
+// }
+// });
+// for (let i = 4; i <= 8; i++) {
+//   console.log(i);
+// }
+
+// let z = 15;
+
+// while (z >= 9) {
+//   console.log(z);
+//   z--;
+// }
+
+// let z = 0;
+
+// do {
+//   console.log(z);
+//   z++;
+// } while (z < 5);
